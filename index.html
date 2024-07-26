@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>olivia</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kernel Panic</title>
+    <style>
+        body {
+            background-color: #000000; /* Black background */
+            color: #CCCCCC; /* Light Gray text */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .header {
+            color: #4B0082; /* Dark Purple header */
+            font-size: 2em;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .message {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+        }
+        .error-code, .details {
+            font-size: 1em;
+        }
+    </style>
 </head>
 <body>
-
+    <div class="header">Kernel Panic</div>
+    <div class="message">
+        A problem has been detected and the system needs to restart. <br>
+        Please hold down the power button to turn off your computer.
+    </div>
+    <div class="error-code">Error Code: 0x0000000X</div>
+    <div class="details">More details can be found at: /path/to/logs</div>
 </body>
 </html>
